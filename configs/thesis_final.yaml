@@ -1,0 +1,36 @@
+invalid_disparity_value: 0.0
+
+weights:
+  validity: 0.18
+  smoothness: 0.22
+  multiscale: 0.12
+  edge_coherence: 0.14
+  depth_sensitivity: 0.14
+  hole_clustering: 0.14
+  local_outlier: 0.06
+
+parameters:
+  sobel_kernel: 3
+  edge_percentile: 75.0
+  normalization_percentile: 95.0
+  multiscale_small_kernel: 3
+  multiscale_large_kernel: 15
+  edge_dilation_kernel: 3
+  edge_dilation_iterations: 1
+  depth_window: 5
+  depth_alpha: 400.0
+  epsilon: 1.0e-6
+  hole_alpha_fraction: 1.0
+  hole_alpha_largest: 1.0
+  hole_alpha_count: 0.3
+  hole_count_reference_area: 500.0
+  local_outlier_window: 5
+  local_outlier_alpha: 2.5
+  roi_instability_scale_px: 30.0
+
+roi_score:
+  mean_reliability: 0.55
+  valid_ratio: 0.15
+  hole_clustering: 0.15
+  smoothness: 0.10
+  stability: 0.05
