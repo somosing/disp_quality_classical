@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#0d1117"/>
+<text x="55" y="55" fill="#f0f6fc" font-family="Arial" font-size="28" font-weight="700">Reference-bad-pixel ranking</text>
+<text x="55" y="84" fill="#8b949e" font-family="Arial" font-size="16">Final thesis evaluation · 1,158 held-out warehouse captures</text>
+<line x1="120" y1="500" x2="930" y2="500" stroke="#30363d"/><line x1="120" y1="130" x2="120" y2="500" stroke="#30363d"/>
+<g font-family="Arial" font-size="15" fill="#8b949e">
+<text x="80" y="505">0.0</text><text x="80" y="413">0.2</text><text x="80" y="321">0.4</text><text x="80" y="229">0.6</text><text x="80" y="137">0.8</text>
+</g>
+<g font-family="Arial" font-size="16" fill="#c9d1d9">
+<rect x="200" y="147" width="70" height="353" fill="#8b949e"/><rect x="280" y="243" width="70" height="257" fill="#6e7681"/>
+<text x="235" y="535" text-anchor="middle">Sensor</text><text x="235" y="555" text-anchor="middle">confidence</text>
+<text x="235" y="140" text-anchor="middle">0.768</text><text x="315" y="236" text-anchor="middle">0.559</text>
+
+<rect x="445" y="131" width="70" height="369" fill="#58a6ff"/><rect x="525" y="213" width="70" height="287" fill="#388bfd"/>
+<text x="520" y="535" text-anchor="middle">Classical reliability</text>
+<text x="480" y="124" text-anchor="middle">0.801</text><text x="560" y="206" text-anchor="middle">0.623</text>
+
+<rect x="700" y="106" width="70" height="394" fill="#3fb950"/><rect x="780" y="167" width="70" height="333" fill="#2ea043"/>
+<text x="775" y="535" text-anchor="middle">Learned reliability</text>
+<text x="735" y="99" text-anchor="middle">0.856</text><text x="815" y="160" text-anchor="middle">0.724</text>
+</g>
+<g font-family="Arial" font-size="14" fill="#c9d1d9"><rect x="770" y="55" width="18" height="18" fill="#58a6ff"/><text x="795" y="69">AUROC</text><rect x="865" y="55" width="18" height="18" fill="#388bfd"/><text x="890" y="69">AUPRC</text></g>
+</svg>

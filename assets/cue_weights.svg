@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="1000" height="520" fill="#0d1117"/>
+<text x="55" y="55" fill="#f0f6fc" font-family="Arial" font-size="28" font-weight="700">Cue weights used in the classical fusion</text>
+<g font-family="Arial" font-size="17" fill="#c9d1d9">
+<text x="55" y="115">Local smoothness</text><rect x="260" y="94" width="440" height="28" rx="5" fill="#58a6ff"/><text x="720" y="115">0.22</text>
+<text x="55" y="165">Validity</text><rect x="260" y="144" width="360" height="28" rx="5" fill="#58a6ff"/><text x="640" y="165">0.18</text>
+<text x="55" y="215">Edge coherence</text><rect x="260" y="194" width="280" height="28" rx="5" fill="#58a6ff"/><text x="560" y="215">0.14</text>
+<text x="55" y="265">Depth sensitivity</text><rect x="260" y="244" width="280" height="28" rx="5" fill="#58a6ff"/><text x="560" y="265">0.14</text>
+<text x="55" y="315">Hole clustering</text><rect x="260" y="294" width="280" height="28" rx="5" fill="#58a6ff"/><text x="560" y="315">0.14</text>
+<text x="55" y="365">Multiscale consistency</text><rect x="260" y="344" width="240" height="28" rx="5" fill="#58a6ff"/><text x="520" y="365">0.12</text>
+<text x="55" y="415">Local outlier</text><rect x="260" y="394" width="120" height="28" rx="5" fill="#58a6ff"/><text x="400" y="415">0.06</text>
+<text x="55" y="478" fill="#8b949e" font-size="15">Weights from configs/thesis_final.yaml · sum = 1.00</text>
+</g></svg>
